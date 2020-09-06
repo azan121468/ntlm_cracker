@@ -5,11 +5,11 @@ from time import time
 
 def title_box():
     """Creates title box"""
-    print("            **********************")
-    print("            *     MD5 Cracker    *")
-    print("            *        by          *")
-    print("            *     Azan Shahid    *")
-    print("            **********************")
+    print("            ***********************")
+    print("            *     NTLM Cracker    *")
+    print("            *         by          *")
+    print("            *     Azan Shahid     *")
+    print("            ***********************")
 
 def ntlm_hash(string):
     """generate ntlm hash"""
