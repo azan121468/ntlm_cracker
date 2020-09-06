@@ -1,5 +1,6 @@
 import binascii
 import hashlib
+from time import time
 
 
 def title_box():
@@ -39,7 +40,10 @@ def main():
     user_input = input() or "admin"
     print("Enter your wordlist : ",end="")
     wordlist = input() or "wordlist.txt"
+    start = time()
     crack(user_input, wordlist)
-    
+    stop = time()
+    print(f"Time taken is {int(float(stop-start))}")
+
 if __name__=="__main__":
     main()
