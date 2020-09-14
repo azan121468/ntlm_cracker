@@ -1,3 +1,4 @@
+import sys
 import binascii
 import hashlib
 from time import time
@@ -7,7 +8,7 @@ no_of_try = 0
 def title_box():
     """Creates title box"""
     print("            **********************")
-    print("            *     NTLM Cracker   *")
+    print("            *     MD5 Cracker    *")
     print("            *        by          *")
     print("            *     Azan Shahid    *")
     print("            **********************")
