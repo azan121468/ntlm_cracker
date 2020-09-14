@@ -7,7 +7,7 @@ no_of_try = 0
 def title_box():
     """Creates title box"""
     print("            **********************")
-    print("            *     MD5 Cracker    *")
+    print("            *     NTLM Cracker   *")
     print("            *        by          *")
     print("            *     Azan Shahid    *")
     print("            **********************")
